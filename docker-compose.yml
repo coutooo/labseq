@@ -6,15 +6,17 @@ services:
     ports:
       - "8080:8080"
     networks:
-      - labseq
+      - labseq-network
 
   angular-app:
     image: labseqfrontend:latest
     ports:
       - "4200:80"
     networks:
-      - labseq
+      - labseq-network
+    depends_on:      
+      - quarkus-app
       
 networks:
-  labseq:
-    name: labseq-network
+  labseq-network:
+    driver: bridge

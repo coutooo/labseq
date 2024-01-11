@@ -15,6 +15,7 @@ export class AppComponent {
   constructor(private labseqService: LabseqService) {}
 
   calculateLabseq() {
+    console.log('Debugging calculateLabseq function. Input value:', this.inputValue);
     this.result = null;
     this.duration = null;
     this.error = null;
@@ -27,18 +28,18 @@ export class AppComponent {
 
     // Call the service to calculate the labseq
     this.labseqService.calculateLabseq(this.inputValue).subscribe({
-      next : (data) => {
+      next: (data) => {
         // Check if 'result' and 'duration' properties exist in the response
         if (data && data.hasOwnProperty('result') && data.hasOwnProperty('duration')) {
           this.result = data.result;
           this.duration = data.duration;
           console.log(this.result);
-        } 
+        }
       },
-      error :(error) => {
+      error: (error) => {
         console.error('Error calculating labseq:', error);
         this.error = 'Error calculating labseq';
-      }
-  });
+      },
+    });
   }
 }
