@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { LabseqService } from './labseq.service';
+import SwaggerUI from 'swagger-ui';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,9 @@ import { LabseqService } from './labseq.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  title(title: "labseq-calculator") {
+    throw new Error('Method not implemented.');
+  }
   inputValue: number = 0;
   result: string | null = null;
   duration: string | null = null;

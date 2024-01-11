@@ -1,22 +1,25 @@
 version: '3'
 
 services:
-  quarkus-app:
-    image: labseqbackend:latest
+  labseqfrontend:
+    image: labseqfrontend
+    container_name: labseqfrontend
+    ports:
+      - "4200:4200"
+    depends_on:
+      - labseqbackend
+    networks:
+      - labseq_network
+
+  labseqbackend:
+    image: labseqbackend
+    container_name: labseqbackend
     ports:
       - "8080:8080"
     networks:
-      - labseq-network
+      - labseq_network
 
-  angular-app:
-    image: labseqfrontend:latest
-    ports:
-      - "4200:80"
-    networks:
-      - labseq-network
-    depends_on:      
-      - quarkus-app
-      
 networks:
-  labseq-network:
+  labseq_network:
     driver: bridge
+
