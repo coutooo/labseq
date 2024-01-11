@@ -62,8 +62,3 @@ We welcome contributions! If you'd like to enhance LabSeq, follow these steps:
 3. Make your changes and commit them with clear and concise messages.
 4. Push your branch to your fork.
 5. Open a pull request on the LabSeq repository.
-
-# License
-
-LabSeq is licensed under the MIT License - see the LICENSE file for details.
-
