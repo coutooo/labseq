@@ -18,6 +18,7 @@ Ensure that you have the following prerequisites installed on your machine:
 
 - **Quarkus** - A Kubernetes Native Java framework
 - **Angular** - A popular web application framework
+- **Optional** - Docker, run.sh script uses docker-compose
 
 ### Installation
 
