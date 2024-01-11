@@ -2,6 +2,12 @@
 
 LabSeq is a robust sequencing application developed with Quarkus and Angular.
 
+n=0 => l(0) = 0
+n=1 => l(1) = 1
+n=2 => l(2) = 0
+n=3 => l(3) = 1
+n>3 => l(n) = l(n-4) + l(n-3)
+
 ## Getting Started
 
 Follow these straightforward steps to set up and run LabSeq on your system.
