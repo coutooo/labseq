@@ -37,10 +37,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/swagger-ui-dist/swagger-ui-bundle.js",
-              "node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js"
-            ],
+            "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -102,8 +99,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/swagger-ui/dist/swagger-ui.css"
+              "src/styles.css"
             ],
             "scripts": []
           }

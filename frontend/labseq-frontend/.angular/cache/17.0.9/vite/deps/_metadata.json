@@ -1,56 +1,47 @@
 {
-  "hash": "a2a3e2f7",
-  "browserHash": "65bbe652",
+  "hash": "3aa56bbe",
+  "browserHash": "310196b3",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "2400a21a",
+      "fileHash": "9d2deb90",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "5d59d78b",
+      "fileHash": "fa944d89",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "e4875cd5",
+      "fileHash": "159db497",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "3ca72070",
+      "fileHash": "43549c55",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "ab6a2b4c",
-      "needsInterop": false
-    },
-    "swagger-ui": {
-      "src": "../../../../../node_modules/swagger-ui/dist/swagger-ui-es-bundle-core.js",
-      "file": "swagger-ui.js",
-      "fileHash": "09bff9ba",
+      "fileHash": "547175f8",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-GABMEGW4": {
-      "file": "chunk-GABMEGW4.js"
+    "chunk-VCFO7ZMP": {
+      "file": "chunk-VCFO7ZMP.js"
     },
-    "chunk-PL6UL7PT": {
-      "file": "chunk-PL6UL7PT.js"
+    "chunk-EL4XXDQY": {
+      "file": "chunk-EL4XXDQY.js"
     },
-    "chunk-YGPWTBEM": {
-      "file": "chunk-YGPWTBEM.js"
-    },
-    "chunk-Z6I5ETQC": {
-      "file": "chunk-Z6I5ETQC.js"
+    "chunk-QDI3SNNE": {
+      "file": "chunk-QDI3SNNE.js"
     }
   }
 }
