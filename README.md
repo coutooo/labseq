@@ -1,37 +1,45 @@
-LabSeq
+# LabSeq
 
-LabSeq is a powerful sequencing application built with Quarkus and Angular.
+LabSeq is a robust sequencing application developed with Quarkus and Angular.
 
-Getting Started
+## Getting Started
 
-Follow these simple steps to set up and run LabSeq on your system.
+Follow these straightforward steps to set up and run LabSeq on your system.
 
-Prerequisites
+### Prerequisites
 
-Ensure you have the following prerequisites installed on your machine:
+Ensure that you have the following prerequisites installed on your machine:
 
-- Quarkus - A Kubernetes Native Java framework
-- Angular - A popular web application framework
+- **Quarkus** - A Kubernetes Native Java framework
+- **Angular** - A popular web application framework
 
-Installation
+### Installation
 
 1. Clone the LabSeq repository to your local machine:
 
+    ```bash
     git clone https://github.com/coutooo/labseq.git
+    ```
 
 2. Navigate to the project directory:
 
+    ```bash
     cd labseq
+    ```
 
 3. Make the run script executable:
 
+    ```bash
     chmod +x run.sh
+    ```
 
-Usage
+### Usage
 
 Run the application using the provided script:
 
-    ./run.sh
+```bash
+./run.sh
+
 
 This will start LabSeq, making it accessible through your preferred web browser.
 
