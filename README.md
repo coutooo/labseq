@@ -39,15 +39,15 @@ Run the application using the provided script:
 
 ```bash
 ./run.sh
-
+```
 
 This will start LabSeq, making it accessible through your preferred web browser.
 
-REST API Documentation
+# REST API Documentation
 
 The REST API documentation in Open API format (Swagger) is available at [http://localhost:8080/openapi](http://localhost:8080/openapi). Explore and understand the API endpoints for seamless integration.
 
-Contributing
+# Contributing
 
 We welcome contributions! If you'd like to enhance LabSeq, follow these steps:
 
@@ -57,7 +57,7 @@ We welcome contributions! If you'd like to enhance LabSeq, follow these steps:
 4. Push your branch to your fork.
 5. Open a pull request on the LabSeq repository.
 
-License
+# License
 
 LabSeq is licensed under the MIT License - see the LICENSE file for details.
 
