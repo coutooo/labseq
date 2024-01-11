@@ -47,7 +47,7 @@ Run the application using the provided script:
 ./run.sh
 ```
 
-This will start LabSeq, making it accessible through your preferred web browser.
+This will start LabSeq, making it accessible through your preferred web browser at [http://localhost:4200/](http://localhost:4200/).
 
 ### REST API Documentation
 
