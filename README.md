@@ -49,11 +49,11 @@ Run the application using the provided script:
 
 This will start LabSeq, making it accessible through your preferred web browser.
 
-# REST API Documentation
+### REST API Documentation
 
 The REST API documentation in Open API format (Swagger) is available at [http://localhost:8080/openapi](http://localhost:8080/openapi). Explore and understand the API endpoints for seamless integration.
 
-# Contributing
+### Contributing
 
 We welcome contributions! If you'd like to enhance LabSeq, follow these steps:
 
